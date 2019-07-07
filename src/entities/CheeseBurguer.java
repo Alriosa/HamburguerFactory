@@ -6,7 +6,13 @@ public class CheeseBurguer extends Burguer {
 		super(pName,pType,pIngredients);
 		this.setName("CheeseBurguer");
 		this.setType("CheeseBurguer");
-		this.setIngredients("Meat,Bread,Salad,Cheese");
+		this.setIngredients("Cheese");
+	}
+
+	@Override
+	public String getInfo() {
+		// TODO Auto-generated method stub
+		return null;
 	}
 	
 }

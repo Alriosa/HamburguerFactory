@@ -5,6 +5,11 @@ public class SupremeBurguer extends Burguer{
 		super(pName,pType,pIngredients);
 		this.setName("SupremeBurguer");
 		this.setType("SupremeBurguer");
-		this.setIngredients("Bread,Big Meat,eggs,Salad,Crisp");
+		this.setIngredients("Supreme");
+	}
+
+	@Override
+	public String getInfo() {
+		return "";
 	}
 }

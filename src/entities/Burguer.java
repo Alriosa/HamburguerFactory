@@ -16,6 +16,8 @@ public abstract class Burguer {
 		this.type = type;
 		this.ingredients = ingredients;
 	}
+	
+	public abstract String getInfo();
 	public String getName() {
 		return name;
 	}

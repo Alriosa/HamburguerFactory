@@ -5,6 +5,16 @@ public class SimpleBurguer extends Burguer{
 		super(pName,pType,pIngredients);
 		this.setName("Simple");
 		this.setType("SimpleBurguer");
-		this.setIngredients("Bread,Meat,Salt");
+		this.setIngredients("Meat");
+	}
+
+	public SimpleBurguer() {
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public String getInfo() {
+		// TODO Auto-generated method stub
+		return null;
 	}
 }
