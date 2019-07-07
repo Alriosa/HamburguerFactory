@@ -1,5 +1,5 @@
 package entities;
 
-public class SimpleBurguer {
+public class SimpleBurguer extends Burguer {
 
 }

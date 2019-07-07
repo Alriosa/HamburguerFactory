@@ -1,5 +1,7 @@
 package interfaces;
 
-public class BurguerServer {
+import entities.Burguer;
 
+public interface BurguerServer {
+	public Burguer serveBurguer(String pname, String ptype, String pIngredients);
 }
